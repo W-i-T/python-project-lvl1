@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
-
-def velcome():
-    """Displays a welcome message """
-    print('Welcome to the Brain Games!')
+import brain_games.cli
 
 
 def main():
     """ """
-    velcome()
+    brain_games.cli.welcome_user()
 
 
 if __name__ == '__main__':
